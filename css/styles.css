@@ -36,7 +36,7 @@ section {
     align-items: center;       
 }
 
-section.skills {
+section#skills {
     flex-direction: column;
 }
 
@@ -131,11 +131,11 @@ body {
     margin-bottom: 30px;
   }
 
-  .more-about-me .container, .contact .container {
+  #more-about-me .container, #contact .container, #how-help .container {
     height: 90vh;
   }
 
-  .more-about-me .icon-text,  .contact .icon-text {
+  #more-about-me .icon-text, #contact .icon-text {
     font-size: 2rem;
   }
 
