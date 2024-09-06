@@ -1,0 +1,144 @@
+/* styles.css */
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+#home {
+    background-color: #fff;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+}
+
+section.skills {
+    flex-direction: column;
+}
+
+#home h1 {
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.1;
+    margin: 0 auto;
+    width: 500px;
+    font-weight: 400;
+}
+
+#home p.lead {
+    color: #000;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+#home p.sub {
+    font-size: 2rem;
+}
+
+#home p.text-warning {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.orange {
+    color: #f27c22;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 300px; /* Adjust the size of the image */
+    border-radius: 50%; /* Rounded Image */
+}
+#about {
+    padding: 50px 0;
+}
+
+#skillsChart {
+    height: 500px;
+    width: 600px;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.service-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.service-description {
+    margin-top: 10px;
+    color: #333;
+}
+
+.service-icon {
+    font-size: 4rem;
+    color: #000;
+    margin-top: 16px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+
+  .icon-text img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .section-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .more-about-me .container, .contact .container {
+    height: 90vh;
+  }
+
+  .more-about-me .icon-text,  .contact .icon-text {
+    font-size: 2rem;
+  }
+
+  section {
+    border: 1px solid #000;
+  }
