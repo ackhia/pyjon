@@ -142,3 +142,41 @@ body {
   section {
     border: 1px solid #000;
   }
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: larger;
+    text-align: left;
+}
+
+.form-input, 
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box; 
+}
+
+.form-textarea {
+    height: 150px;
+}
+
+.form-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f27c22;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #f6964d;
+}
